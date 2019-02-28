@@ -31,3 +31,36 @@
     transform: rotate(360deg);
   }
 }
+
+#drum-machine {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+
+#display {
+  text-align: right;
+  width: 600px;
+  padding-right: 9.54%;
+  background: black;
+  color: #FF1493;
+  font-family: "Courier", Courier, monospace;
+}
+
+.drum-pad {
+  background: white !important;
+}
+
+#controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 200px;
+  width: 600px;
+  border: 20px solid black;
+  background: black;
+
+}
+
